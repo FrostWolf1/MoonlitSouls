@@ -40,7 +40,7 @@ namespace MoonlitSouls.Items.Weapons
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(165, 1);
-            recipe.AddIngerdient(1225, 10);
+            recipe.AddIngredient(1225, 10);
             recipe.AddTile(49);
             recipe.SetResult(this);
             recipe.AddRecipe();
