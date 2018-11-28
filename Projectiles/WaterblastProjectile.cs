@@ -9,7 +9,7 @@ namespace MoonlitSouls.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Waterblast Projectile")
+            DisplayName.SetDefault("Waterblast Projectile");
         }
         public override void SetDefaults()
         {
@@ -27,11 +27,6 @@ namespace MoonlitSouls.Projectiles
             projectile.tileCollide = true;
             projectile.ignoreWater = true;
         }
-        public override DrawAnimation GetAnimation()
-        {
-            return new DrawAnimationVertical(30, 30);
-        }
-
         public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
         {
             target.AddBuff(103, 60);
