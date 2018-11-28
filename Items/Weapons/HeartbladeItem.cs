@@ -15,7 +15,7 @@ namespace MoonlitSouls.Items.Weapons
 			item.damage = 100;
 			item.melee = true;
 			item.width = 148;
-            item.height = 148;
+            		item.height = 148;
 			item.useTime = 1;
 			item.useAnimation = 20;
 			item.useStyle = 1;
@@ -30,8 +30,8 @@ namespace MoonlitSouls.Items.Weapons
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(3335, 1);
-            recipe.AddIngredient(175, 5);
-            recipe.AddTile(77);
+            		recipe.AddIngredient(175, 5);
+           		recipe.AddTile(77);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
