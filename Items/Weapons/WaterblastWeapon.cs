@@ -38,6 +38,7 @@ namespace MoonlitSouls.Items.Weapons
         }
         
         public override void AddRecipies();
+        
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(165, 1);
