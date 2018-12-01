@@ -27,7 +27,7 @@ namespace MoonlitSouls.Projectiles
             projectile.tileCollide = true;
             projectile.ignoreWater = true;
         }
-        public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit);
         {
             target.AddBuff(103, 60);
         }
