@@ -37,7 +37,7 @@ namespace MoonlitSouls.Items.Weapons
             item.shootSpeed = 10f;
         }
         
-        public override void AddRecipies()
+        public override void AddRecipies();
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(165, 1);
